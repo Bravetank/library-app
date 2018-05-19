@@ -15,8 +15,6 @@
 <br>
 <br>
 Name: ${name} 
-<br>
-Age: ${age}
 
 </body>
 

@@ -20,9 +20,6 @@
 		<form action="processForm" method="GET">
 			<input type="text" name="customerName"
 			placeholder="What's your name?" />
-			
-			<input type="text" name="customerAge"
-			placeholder="How old are you?" />
 			<input type="submit" />
 			
 		</form>
