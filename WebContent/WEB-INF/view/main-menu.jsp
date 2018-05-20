@@ -12,11 +12,13 @@
 <body>
 
 <h2>Library Application</h2>
-<img src="${pageContext.request.contextPath}/resources/images/books.jpg">
 
+<a href = "borrower/showForm" >New Application</a>
+
+<br>
 <hr>
 
-<a href = "showForm" >New Application</a>
+<img src="${pageContext.request.contextPath}/resources/images/books.jpg">
 
 </body>
 

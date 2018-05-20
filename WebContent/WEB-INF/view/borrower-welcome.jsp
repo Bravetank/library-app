@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Library System - New Application</title>
-
 <link rel="stylesheet" type="text/css" 
 		  href="${pageContext.request.contextPath}/resources/css/my-test.css">
 
     <script src="${pageContext.request.contextPath}/resources/js/simple-test.js"></script>
 </head>
 
-
-
-
 <body>
 
-<h1>Application form</h1>
-<img src="${pageContext.request.contextPath}/resources/images/books.jpg">
+<h2>Welcome to the Library</h2>
 
-		<form action="processForm" method="GET">
-			<input type="text" name="customerName"
-			placeholder="What's your name?" />
-			<input type="submit" />
-			
-		</form>
+<br>
+<br>
+The borrower is registered: ${borrower.firstName} ${borrower.lastName} 
+<br>
+<br>
+City: ${borrower.city}
+<br>
+<br>
+
+<img src="${pageContext.request.contextPath}/resources/images/books.jpg">
 
 </body>
 
